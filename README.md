@@ -1,11 +1,13 @@
 # BudgetManager
-Java Program for logging in purchases and managing finances. Makes use of swing and MySQL.
+Java Program for logging in purchases and managing finances. Makes use of swing and MySQL. This code is still a work in progress. 
+
+ ConnectToDatabase.java: Contains static methods that return a connection to the DB
+ DataProcessor.java: Methods for getting records from a database
+ Purchase.java: A Purchase object is a container for the data related to a purchase.  Mirrors my SQL database.
+ PurchaseProcessor.java: Uses prepared statements to add records to DB.
+ 
+ Config.properties: Contains url, username, and pw for connecting to MySQL.
 
 
 
-	DataProcessor - A DataProcessor object is a way of connecting to a MySQL DB and retrieving data.
-	Created in a way to make it easy to reuse for future projects. This code is still in progress and does
-	not yet include methods for insertions into a DB.
 	
-	Purchase - A purchase object mirrors an existing table in MySQL. Will change as it becomes clearer
-	what information is neccessary to collect when a user logs a purchase.
