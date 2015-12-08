@@ -1,6 +1,7 @@
 # BudgetManager
-Java Program for logging in purchases and managing finances. Makes use of swing and MySQL. This code is still a work in progress. 
+Java Program for logging in purchases and managing finances. Makes use of JDBC and MySQL. This code is still a work in progress. 
 
+*I am making this application into an android studio application and will not be working from this repository.  Work will continue in a private repository.
  
  
  ConnectToDatabase.java: Contains static methods that return a connection to the database
